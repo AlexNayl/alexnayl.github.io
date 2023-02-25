@@ -1,0 +1,25 @@
+:root{
+
+	--colorbg1: #0B0C10;
+	--colorbg2: #202833;
+	--color0: #ffffff;
+	--color1: #C8C3C5;
+	--color2: #66FCF1;
+	--color3: #46A29F;
+
+	background-color: var(--colorbg1);
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+	background-color: var(--colorbg1);
+}
+
+#sidebar {
+	min-width: 250px;
+	max-width: 250px;
+	min-height: 100vh;
+	background-color: var(--colorbg2);
+}
