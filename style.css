@@ -27,3 +27,10 @@
 .background{
 	background-image: url('assets/background.svg');
 }
+.card{
+	margin: 10px;
+}
+.card-img-top{
+	max-height: 24rem;
+	object-fit: contain;
+}
