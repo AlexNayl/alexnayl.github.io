@@ -23,3 +23,7 @@
 	min-height: 100vh;
 	background-color: var(--colorbg2);
 }
+
+.background{
+	background-image: url('assets/background.svg');
+}
