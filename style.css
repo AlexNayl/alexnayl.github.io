@@ -6,31 +6,56 @@
 	--color1: #C8C3C5;
 	--color2: #66FCF1;
 	--color3: #46A29F;
-
 	background-color: var(--colorbg1);
 }
 
 .wrapper {
+	grid-row: 1;
+	grid-column: 1;
 	display: flex;
 	width: 100%;
 	align-items: stretch;
 	background-color: var(--colorbg1);
 }
 
-#sidebar {
-	min-width: 250px;
-	max-width: 250px;
-	min-height: 100vh;
+.background-sticky{
+	width: 100%;
+	height: 100vh;
+	grid-row: 1;
+	grid-column: 1;
+	position: fixed;
+	top: 0;
+	background-size: cover;
+	background-image: url('assets/background.svg');
+}
+
+.list-group-item{
 	background-color: var(--colorbg2);
 }
 
-.background{
-	background-image: url('assets/background.svg');
+.list-group{
+	width: 80%;
 }
-.card{
-	margin: 10px;
+
+.btn{
+	margin:2pt;
 }
-.card-img-top{
-	max-height: 24rem;
-	object-fit: contain;
+
+.nav-link{
+	transition: background-color 0.2s;
+}
+
+.nav-link:hover{
+	background-color: #3E4F60;
+}
+
+.content{
+	overflow-y: scroll;
+}
+
+.nav{
+	height: 100vh;
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
 }
