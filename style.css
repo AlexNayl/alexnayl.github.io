@@ -6,7 +6,6 @@
 	--color1: #C8C3C5;
 	--color2: #66FCF1;
 	--color3: #46A29F;
-	background-color: var(--colorbg1);
 }
 
 .wrapper {
@@ -15,7 +14,7 @@
 	display: flex;
 	width: 100%;
 	align-items: stretch;
-	background-color: var(--colorbg1);
+	z-index: 1;
 }
 
 .background-sticky{
@@ -25,8 +24,9 @@
 	grid-column: 1;
 	position: fixed;
 	top: 0;
-	background-size: cover;
 	background-image: url('assets/background.svg');
+	background-color: var(--colorbg1);
+	z-index: -1;
 }
 
 .list-group-item{
@@ -51,6 +51,7 @@
 
 .content{
 	overflow-y: scroll;
+	z-index: 1;
 }
 
 .nav{
