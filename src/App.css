@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 15pt;
   color: white;
 }
 
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.social{
+	transition: transform .2s;
+  background-color: var(--colorbg2);
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: medium;
+}
+
+.social img{
+  height: 100%;
+}
+
+.social:hover{
+	transform: scale(1.1);
+}
+
+.link-bar{
+  text-wrap: nowrap;
+  justify-content: center;
+  min-width: 0;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.link-bar *{
+  height: 40pt;
 }
