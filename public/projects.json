@@ -1,0 +1,81 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "name":"Boid Behavior Demo",
+            "desc":"Made with Rust, Using Web Assembly and the Bevy Game Engine. This demo shows a model for boid behaviour, seen in the real world in structures such as schools of fish. ",
+            "repo_url": "https://github.com/AlexNayl/RustBoidDemo",
+            "run_url":"https://alexnayl.github.io/RustBoidDemo/",
+            "tags":[
+                "Web Development",
+                "Rust"
+            ]
+        },
+        {
+            "id":1,
+            "name":"Data Association Algorithms Comparison",
+            "desc":"Several data association algorithms implemented in Rust for benchmarking and comparison. The algorithms are Apriori, PCY, Multi Hash PCY, Ransom Sample Apriori, and SON.",
+            "repo_url": "https://github.com/AlexNayl/dataAssociationAlgorithms",
+            "run_url":null,
+            "tags":[
+                "Data Science",
+                "Rust"
+            ]
+        },
+        {
+            "id":2,
+            "name":"Web Development Group Project",
+            "desc":"A web application build using Vue in collaboration with 4 others in a web development class. Contains several video games. ",
+            "repo_url": "https://github.com/AlexNayl/WebDevGroupProject",
+            "run_url":"https://alexnayl.github.io/WebDevGroupProject/",
+            "tags":[
+                "Web Development",
+                "Vue.js",
+                "JavaScript",
+                "Collaborative Programming"
+            ]
+        },
+        {
+            "id":3,
+            "name":"GeoPhoto Social Media Prototype",
+            "desc":"A mobile app made using the flutter framework in collaboration with 3 others in a mobile development class. It's a prototype social media site where users can post geo located photos on a map.",
+            "repo_url": "https://github.com/AlexNayl/GeoPhotoSocialMedia",
+            "run_url": null,
+            "tags":[
+                "Mobile Development",
+                "Multi Platform Development",
+                "Full Stack Development",
+                "Flutter",
+                "Dart",
+                "Collaborative Programming"
+            ]
+        },
+        {
+            "id":4,
+            "name":"Image Cartoonizer",
+            "desc":"Demonstration of using OpenCV for image processing in a jupyter notebook environment, using color flattening and canny edge detection. ",
+            "repo_url": "https://github.com/AlexNayl/ImageCartoonizer",
+            "run_url": "https://alexnayl.github.io/ImageCartoonizer/",
+            "tags":[
+                "Data Science",
+                "Image Processing",
+                "Open CV",
+                "Python",
+                "Jupyter Notebook"
+            ]
+        },
+        {
+            "id":6,
+            "name":"This Portfolio",
+            "desc":"Developed using React and Bootstrap. This project demonstrates topics like state management, asynchronous loading, and UI design.",
+            "repo_url": "https://github.com/AlexNayl/alexnayl.github.io",
+            "run_url": null,
+            "tags":[
+                "Web Development",
+                "React",
+                "Bootstrap",
+                "JavaScript"
+            ]
+        }        
+    ]
+}
