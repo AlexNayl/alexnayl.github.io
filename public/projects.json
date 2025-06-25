@@ -14,7 +14,7 @@
         {
             "id":1,
             "name":"Data Association Algorithms Comparison",
-            "desc":"Several data association algorithms implemented in Rust for benchmarking and comparison. The algorithms are Apriori, PCY, Multi Hash PCY, Ransom Sample Apriori, and SON.",
+            "desc":"Several data association algorithms implemented in Rust for benchmarking and comparison. The algorithms are Apriori, PCY, Multi Hash PCY, Random Sample Apriori, and SON.",
             "repo_url": "https://github.com/AlexNayl/dataAssociationAlgorithms",
             "run_url":null,
             "tags":[

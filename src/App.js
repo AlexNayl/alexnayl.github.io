@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import DownloadPDFIcon from './svgComponents/DownloadPDF';
+import Projects from './Projects';
 function App() {
   return (
     <div className="App">
@@ -28,8 +29,15 @@ function App() {
             Download Resume
 				  </a>
         </div>
-        
       </header>
+      <Projects/>
+      <footer>
+        <h2>Don't see what your looking for?</h2>
+        <p>If a specific technology your looking for isn't here, that doesn't mean I cant do it! Some of my capabilities aren't yet demonstrated through my projects, and any skills I lack I'm eager to learn!
+          <br/><br/>
+          Take a look at my Resume, and send me an email if you have any specific requirement questions.
+        </p>
+      </footer>
     </div>
   );
 }

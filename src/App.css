@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  color: white;
+  font-size: 15pt;
+  max-width: 90%;
+  width: 80rem;
+  margin-inline: auto;
 }
 
 .App-logo {
@@ -20,8 +25,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 15pt;
-  color: white;
 }
 
 .App-link {
