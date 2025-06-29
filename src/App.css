@@ -40,6 +40,9 @@
   }
 }
 
+.header-Middle{
+  margin: auto;
+}
 
 .social{
 	transition: transform .2s;
@@ -67,4 +70,14 @@
 
 .link-bar *{
   height: 40pt;
+}
+
+header footer{
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 4rem;
+}
+
+header footer *{
+  margin-inline: 1rem;
 }
