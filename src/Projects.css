@@ -1,0 +1,12 @@
+.project{
+    background-color: var(--colorbg2);
+    text-align: left;
+}
+
+.btn{
+    transition: transform .2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
