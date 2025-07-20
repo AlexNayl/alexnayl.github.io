@@ -26,6 +26,25 @@
   align-items: center;
   justify-content: center;
 }
+.header-Middle{
+  text-align: left;
+  min-width: 50%;
+  max-width: 70%;
+  padding-left: 2rem;
+}
+
+.Header-Main{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+
+.profile-pic{
+  border-radius: 50%;
+  border: 0.5rem solid white;
+}
 
 .App-link {
   color: #61dafb;
@@ -38,10 +57,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.header-Middle{
-  margin: auto;
 }
 
 .social{
@@ -62,7 +77,7 @@
 
 .link-bar{
   text-wrap: nowrap;
-  justify-content: center;
+  justify-content: left;
   min-width: 0;
   max-width: 100%;
   flex-wrap: wrap;
