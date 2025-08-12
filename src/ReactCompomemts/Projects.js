@@ -1,12 +1,13 @@
 import { PulseLoader } from "react-spinners";
 import { useState } from "react";
+import '../App.css'
 import "./Projects.css"
-import GitHubIcon from "./svgComponents/GitHub";
-import PlayIcon from "./svgComponents/Play";
+import GitHubIcon from "../svgComponents/GitHub";
+import PlayIcon from "../svgComponents/Play";
 
 async function loadProjects(setProjectData){
     let data = (await (await fetch("/projects.json")).json()).projects
-    await new Promise(resolve => setTimeout(resolve, 2000)) //2 second delay to showcase loading logic
+    await new Promise(resolve => setTimeout(resolve, 1000))
 
     let output = []
     for (const project of data){
@@ -58,7 +59,15 @@ function Projects(){
                 data-testid="loader"
             />
     }else{
-        return projectData
+        return [projectData,
+            <footer>
+                <h2>Don't see what your looking for?</h2>
+                <p>If a specific technology your looking for isn't here, that doesn't mean I cant do it! Some of my capabilities aren't yet demonstrated through my projects, and any skills I lack I'm eager to learn!
+                <br/><br/>
+                Take a look at my Resume, and send me an email if you have any specific requirement questions.
+                </p>
+            </footer>
+        ]
     }
 }
 
