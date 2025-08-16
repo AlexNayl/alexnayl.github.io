@@ -10,7 +10,7 @@ function NavBar(){
             Projects
         </NavLink>
         <NavLink to="/experience" className="nav-link" >
-            Education & Experience
+            Experience and Education
         </NavLink>
         <NavLink to="/passions" className="nav-link" >
             Passions

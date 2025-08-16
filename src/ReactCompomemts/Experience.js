@@ -6,95 +6,102 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './Experience.css'
 
 function Experience(){
      
+    const contentStyle={ background: 'var(--colorbg2)', color: '#fff', 'box-shadow':"0 0 0" };
+    const contentArrowStyle = {borderRight: '7px solid  var(--colorbg2)' };
+    const iconStyle = { background: 'var(--colorbg2)', color: 'var(--color1)', fill:'var(--color3)'};
 
-  return <VerticalTimeline>
+    return <VerticalTimeline>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2011 - present"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
+            position='right'
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+            iconStyle={iconStyle}
+            date="September 2024 - June 2025"
+            icon={<SchoolIcon />}
         >
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h3 className="vertical-timeline-element-title">Masters of Engineering - Software Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Western Ontario</h4>
             <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            Member of the Skylark satellite development team, focusing on ground station system selection and implementation.
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            position='left'
+            date="August 2023 - September 2024"
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+            iconStyle={iconStyle}
             icon={<WorkIcon />}
         >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <h3 className="vertical-timeline-element-title">IT Technician</h3>
+            <h4 className="vertical-timeline-element-subtitle">Schneider's Computing</h4>
             <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                Operated satellite store, managing retail operations and desktop and laptop repairs while offering expert advice to customers. Frequently went on service calls for general IT issues and assisting the ISP team in network maintenance and customer connection.
+            </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+            iconStyle={iconStyle}
+            date='January 2023 - May 2023'
+            position='left'
+            icon={<WorkIcon />}
+        >
+            <h3 className="vertical-timeline-element-title">Teaching Assistant</h3>
+            <h4 className="vertical-timeline-element-subtitle">Ontario Tech University</h4>
+            <p>
+                Mentored 20 students through lab activities for the Software Systems and Integration course, focusing on building full stack systems using Java and Glassfish for the backend and vanilla Javascript for the front end.
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
+            date="September 2018 - May 2023"
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+            iconStyle={iconStyle}
+            position='right'
+            icon={<SchoolIcon />}
         >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+            <h3 className="vertical-timeline-element-title">Computer Science - Data Science Specialization</h3>
+            <h4 className="vertical-timeline-element-subtitle">Ontario Tech University</h4>
             <p>
-            User Experience, Visual Design
-            </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<WorkIcon />}
-        >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-            User Experience, Visual Design
+                Minored in Astronomy while attaining a Data Science Specialization through various specialized courses like Data Mining, Database Systems and Concepts, Computer Vision, Big Data Analytics, Machine Learning, and Information Visualization.
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            date="May 2022 - June 2022"
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+            iconStyle={iconStyle}
+            position='left'
+            icon={<WorkIcon />}
         >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+            <h3 className="vertical-timeline-element-title">Deputy Tabulator</h3>
+            <h4 className="vertical-timeline-element-subtitle">Elections Ontario</h4>
             <p>
-            Strategy, Social Media
+                Operated a tabulating machine for Elections Ontario in a temporary role during the 2022 provincial election.
             </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            date="2014 - 2017"
+            contentStyle={contentStyle}
+            contentArrowStyle={contentArrowStyle}
+            iconStyle={iconStyle}
+            position='left'
+            icon={<WorkIcon />}
         >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+            <h3 className="vertical-timeline-element-title">Frontend Cashier and Meat Department Clerk</h3>
+            <h4 className="vertical-timeline-element-subtitle">Food Basics</h4>
             <p>
-            Creative Direction, User Experience, Visual Design
-            </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
-        >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-            <p>
-            Creative Direction, Visual Design
+                As a meat department clerk I managed shelf stock and cleanliness. As a cashier my responsibilities included handling money and age verification for tobacco and lottery products.
             </p>
         </VerticalTimelineElement>
     </VerticalTimeline>
