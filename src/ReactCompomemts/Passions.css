@@ -1,0 +1,12 @@
+.passion{
+    display:flex;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--colorbg2);
+    border-radius: .25em;
+}
+
+.passion img{
+    height: 20rem;
+    padding-right: 1rem
+}

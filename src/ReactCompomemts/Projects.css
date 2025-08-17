@@ -1,6 +1,7 @@
 .project{
     background-color: var(--colorbg2);
     text-align: left;
+    border-radius: .25em;
 }
 
 .btn{
